@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import { Button, Typography } from '@mui/material';
 import { Typography, AppBar, Toolbar, Box,Button, TextField } from "@mui/material";
+import{ Link} from "react-router-dom";
 import "./navbar.css";
 import logo from "../images-videos/attachment_106965080-removebg-preview.png";
 import Modal from "react-modal"
@@ -55,7 +56,7 @@ function Navbar() {
             
                 <Box>
                     <Button sx={{color:"#00ADB5",fontWeight:"bold"}} >Home</Button>
-                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>About</Button>
+                  <Link to="/about">  <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>About</Button></Link>
                     <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>Products</Button>
                     <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>Service</Button>
                     <Button className="login" sx={{color:"#222831",fontWeight:"bold",background:'#00ADB5'}}
