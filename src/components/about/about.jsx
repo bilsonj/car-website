@@ -6,7 +6,7 @@ function About(){
     return(
         <Box>
             <Navbar/>
-            <h1>welcome</h1>
+            <h1>hello</h1>
         </Box>
     )
 }
