@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fooder-continer{
+    background-color: #222831 !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    margin-top: 40px;
+  
+}
+.fooder-content{
+    color:#00ADB5 !important;
+}
+.fooder-heading{
+    color:#00ADB5 !important  ;
+}
+.fooder-overall{
+    display: flex;
+      
+}
+.fooderimg{
+    height: 80px !important;
+    width: 200px !important;
+}
+.fooderimg2{
+    height: 50px !important;
+    width: 200px !important;
+    margin-bottom: 15px;
+}

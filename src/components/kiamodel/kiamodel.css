@@ -1,0 +1,15 @@
+*{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.kia-imgs{
+    height: 200px;
+    width: 400px;
+}
+.kia-page{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+gap: 40px;
+}
