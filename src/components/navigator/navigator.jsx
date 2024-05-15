@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Kiamodel from "../kiamodel/kiamodel";
 import Cars from "../cars/cars";
+import Contacts from "../contacts/contacts";
 
 AOS.init();
 const route =createBrowserRouter([
@@ -25,6 +26,10 @@ const route =createBrowserRouter([
         path:"cars",
         element:<Cars/>
 
+    },
+    {
+        path:"contacts",
+        element:<Contacts/>
     },
     {
         path:"Kiamodel",

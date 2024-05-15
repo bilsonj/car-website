@@ -58,7 +58,7 @@ function Navbar() {
                    <Link to="/"> <Button sx={{color:"#00ADB5",fontWeight:"bold"}} >Home</Button></Link>
                   <Link to="/about">  <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>About</Button></Link>
                   <Link to="/cars"> <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>cars</Button></Link> 
-                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>contacts</Button>
+                  <Link to="/contacts"> <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>contacts</Button></Link>
                     <Button className="login" sx={{color:"#222831",fontWeight:"bold",background:'#00ADB5'}}
                     
                     onClick={()=>setlogin(true)}>Login</Button>
