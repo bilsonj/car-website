@@ -3,6 +3,82 @@
     margin: 0px;
     box-sizing: border-box;
 }
-h1{
-    margin-top: 180px;
+.about-head{
+    margin-top: 100px !important;
+    color: #00ADB5;
+    font-weight: bolder;
+    text-align: center;
+}
+.about-para{
+    margin-top: 30px !important;
+    color: #00ADB5;
+    font-weight: bolder;
+    display: flex;
+    padding-left: 40%;
+
+}
+.about-continer1{
+    background-color: #00ADB5;
+    height: 600px;
+    width: 40%;
+
+}
+.about-content-overall{
+    display: flex;
+}
+.about-continer2{
+    background-color: #222831;
+    height: 600px;
+    width:60% ;
+  
+   
+
+}
+.aboutposition{
+    height: 450px;
+    width: 90%;
+    position: relative;
+    top: 60px;
+    left: 300px;
+    /* top: -300px; */
+    /* bottom: 550px; */
+    
+
+}
+.about-card{
+    border: 2px solid lightgrey;
+    width: 300px;
+padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.happy{
+    font-weight: bolder !important;
+    text-align: center;
+    color: #00215E;
+    padding: 30px;
+}
+.billu{
+    border-radius: 50px;
+  
+
+}
+.developer{
+    color: #00ADB5;
+    text-align: center;
+}
+.about-name{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder !important;
+}
+.aboutcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

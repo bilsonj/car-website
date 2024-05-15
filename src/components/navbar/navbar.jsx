@@ -55,10 +55,10 @@ function Navbar() {
           
             
                 <Box>
-                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}} >Home</Button>
+                   <Link to="/"> <Button sx={{color:"#00ADB5",fontWeight:"bold"}} >Home</Button></Link>
                   <Link to="/about">  <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>About</Button></Link>
-                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>Products</Button>
-                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>Service</Button>
+                  <Link to="/cars"> <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>cars</Button></Link> 
+                    <Button sx={{color:"#00ADB5",fontWeight:"bold"}}>contacts</Button>
                     <Button className="login" sx={{color:"#222831",fontWeight:"bold",background:'#00ADB5'}}
                     
                     onClick={()=>setlogin(true)}>Login</Button>
