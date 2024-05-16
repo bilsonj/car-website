@@ -40,6 +40,14 @@ import minicooperlogo from "../images-videos/minicooperlogo.jpg";
 import tatalogo from "../images-videos/tatalogo.jpg"
 import {Link } from "react-router-dom";
 import Modals from "../model/modal";
+import upcoming1 from "../images-videos/upcoming1.jpg"
+import upcoming2 from "../images-videos/upcomingbmwm5.jpg"
+import upcoming3 from "../images-videos/upcomingmercedes-benz.webp"
+import upcoming4 from "../images-videos/upcomingnissanmaxima.jpg"
+import upcoming5 from "../images-videos/upcomingpolestar.jpg"
+import upcoming6 from "../images-videos/upcomingramrampage.jpg"
+import upcoming7 from "../images-videos/upcomingtata-harrierev.png"
+import upcoming8 from "../images-videos/upcomingtoyatamr2.jpg"
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>;
 function Home() {
@@ -93,7 +101,7 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h5">Mahindra</Typography>
+            <Typography variant="h6">Mahindra</Typography>
             <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
@@ -112,8 +120,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Toyata</Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Toyata</Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -130,8 +138,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Tatapunch</Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Tatapunch</Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -163,8 +171,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Mahindra-3XO </Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Mahindra-3XO </Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -188,8 +196,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Kia seltos</Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Kia seltos</Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -206,8 +214,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Nissan magnite</Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Nissan magnite</Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -224,8 +232,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Hyundai</Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Hyundai</Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -242,8 +250,8 @@ const [value ,setvalue]=useState(false)
             title="green iguana"
           />
           <CardContent>
-            <Typography variant="h4">Maruti </Typography>
-            <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+            <Typography variant="h6">Maruti </Typography>
+            <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
             <Button
               className="cardbtn"
               sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -273,8 +281,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Mini Cooper</Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Mini Cooper</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -291,8 +299,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Bugatti</Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Bugatti</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -309,8 +317,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Lamborghini</Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Lamborghini</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -327,8 +335,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4"> Jaguar</Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6"> Jaguar</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -352,8 +360,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Mitsubishi </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Mitsubishi </Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -370,8 +378,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Rolls Royce </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Rolls Royce </Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -388,8 +396,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Porsche</Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Porsche</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -406,8 +414,8 @@ const [value ,setvalue]=useState(false)
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Gcm </Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -428,12 +436,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming1}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Tata Punch </Typography>
+              <Typography variant="h6">Rs19.99  Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -447,12 +455,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming2}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">BMW m5 </Typography>
+              <Typography variant="h6">Rs 3cr </Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -466,12 +474,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming3}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Mercedes-benz </Typography>
+              <Typography variant="h6">Rs 2cr*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -485,12 +493,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming4}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Nissan Maxima</Typography>
+              <Typography variant="h6">Rs19.99 - 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -505,12 +513,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming5}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">polestar</Typography>
+              <Typography variant="h6">Rs 26.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -524,12 +532,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming6}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Ram Rampage </Typography>
+              <Typography variant="h6">Rs 19 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -543,12 +551,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming7}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Tata-harrier ev </Typography>
+              <Typography variant="h6">Rs 55.20 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
@@ -562,12 +570,12 @@ const [value ,setvalue]=useState(false)
             <CardMedia
               className="media"
               sx={{ height: 140 }}
-              image={gcm}
+              image={upcoming8}
               title="green iguana"
             />
             <CardContent>
-              <Typography variant="h4">Gcm </Typography>
-              <Typography variant="h5">Rs19.99 - 26.30 Lakh*</Typography>
+              <Typography variant="h6">Toyato Mr4 </Typography>
+              <Typography variant="h6">Rs 20.30 Lakh*</Typography>
               <Button
                 className="cardbtn"
                 sx={{ border: "2px solid #00ADB5", loadingPosition: "center" }}
