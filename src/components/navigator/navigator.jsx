@@ -10,8 +10,10 @@ import Kiamodel from "../kiamodel/kiamodel";
 import Cars from "../cars/cars";
 import Contacts from "../contacts/contacts";
 import Volvo from "../volvo/volvo";
-
+import Suzuki from "../suzuki/suziki";
 import Hyundaimodel from "../hyundai/hyundai";
+import Minicoper from "../minicopper/minicoper";
+import Tata from "../tata/tata";
 
 AOS.init();
 const route =createBrowserRouter([
@@ -45,7 +47,18 @@ const route =createBrowserRouter([
     {
       path:"hyundaimodel",
       element:<Hyundaimodel/>
+    },{
+        path:"suzuki",
+        element:<Suzuki/>
+    },{
+path:"minicoper",
+element:<Minicoper/>
+    },
+    {
+        path:"tata",
+        element:<Tata/>
     }
+
 ])
 // const route =createBrowserRouter([
 

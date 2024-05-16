@@ -590,10 +590,16 @@ const [value ,setvalue]=useState(false)
   <Link to="/hyundaimodel">
   <img className="brand-logos" src={hyundailogo} alt="" />
   </Link>
+<Link to="/suzuki">
+<img className="brand-logos" src={marutilogo} alt="" />
+</Link>
+ <Link to="/minicoper">
+ <img className="brand-logos" src={minicooperlogo} alt="" />
+ </Link>
+<Link to="/tata">
+<img className="brand-logos" src={tatalogo} alt="" />
+</Link>
 
-  <img className="brand-logos" src={marutilogo} alt="" />
-  <img className="brand-logos" src={minicooperlogo} alt="" />
-  <img className="brand-logos" src={tatalogo} alt="" />
 </Box>
 
 
