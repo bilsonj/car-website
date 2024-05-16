@@ -75,7 +75,7 @@ function About() {
                 safe country.
               </Typography>
               <Typography variant="h5" className="about-name">Bilson</Typography>
-              <Typography className="developer">Web Developer</Typography>
+              <Typography className="developer">Frontend Developer</Typography>
             </CardContent>
           </Card>
           
