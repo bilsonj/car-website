@@ -1,22 +1,22 @@
 *{
-    padding: 0PX;
+    padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-.kia-imgs{
+.huandai-design{
     height: 200px;
     width: 300px;
     transition: 1s;
     cursor: pointer;
     border-radius: 10px;
 }
-.kia-page{
+.hyundai-overall{
     display: flex;
-    margin-top: 150px;
     justify-content: center;
-gap: 70px;
+    gap: 70px;
+    margin-top: 150px;
 }
-.kia-imgs:hover{
+.huandai-design:hover{
     transform: scale(1.3);
     z-index: 3;
 }

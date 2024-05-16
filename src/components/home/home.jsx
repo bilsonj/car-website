@@ -38,9 +38,7 @@ import volvo from "../images-videos/volvo.jpg";
 import marutilogo from "../images-videos/marutilogo.jpg";
 import minicooperlogo from "../images-videos/minicooperlogo.jpg";
 import tatalogo from "../images-videos/tatalogo.jpg"
-import Kiamodel from "../kiamodel/kiamodel";
-import {Link } from "react-router-dom"
-
+import {Link } from "react-router-dom";
 import Modals from "../model/modal";
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>;
@@ -586,8 +584,13 @@ const [value ,setvalue]=useState(false)
 <Link to="/Kiamodel">
 <img className="brand-logos" src={kialogo} alt=""  />
 </Link>
-  <Link ></Link><img className="brand-logos" src={volvo} alt="" />
+  <Link to="/volvo" >
+    <img className="brand-logos" src={volvo} alt="" />
+  </Link>
+  <Link to="/hyundaimodel">
   <img className="brand-logos" src={hyundailogo} alt="" />
+  </Link>
+
   <img className="brand-logos" src={marutilogo} alt="" />
   <img className="brand-logos" src={minicooperlogo} alt="" />
   <img className="brand-logos" src={tatalogo} alt="" />
