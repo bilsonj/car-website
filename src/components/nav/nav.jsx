@@ -12,7 +12,7 @@ function Nav1() {
         <h2 className="logo1">cars</h2>
         <ul className={mobile ? "nav-links-mobile" : "list-menu"}>
           <Link to="/">
-            <li className="home1">Homell</li>
+            <li className="home1">Home</li>
           </Link>
           <Link to="/about1">
             <li className="about1">About</li>

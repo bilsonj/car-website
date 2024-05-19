@@ -23,6 +23,9 @@ li{
     padding: 10px 20px;
     cursor: pointer;
 }
+a{
+    text-decoration: none !important;
+}
 .logo1{
 color: #00ADB5;
 }
