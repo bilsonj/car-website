@@ -20,3 +20,23 @@ gap: 70px;
     transform: scale(1.3);
     z-index: 3;
 }
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .suzuki-overall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .suzuki-design{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    .suzuki-overall{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}

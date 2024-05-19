@@ -21,3 +21,21 @@
     transform: scale(1.3);
     z-index: 3;
 }
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .volvo-overall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .volvo-design{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    .volvo-overall{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

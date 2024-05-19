@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import { Box, Typography, Card, CardMedia, CardContent } from "@mui/material";
 import "./about.css";
 import aboutmp4 from "../images-videos/about.mp4";
@@ -21,9 +21,9 @@ function About() {
   return (
     <Box>
       <Box>
-        <Navbar />
+        <Nav1 />
       </Box>
-      <video src={aboutmp4} muted loop autoPlay>
+      <video className="aboutmp4" src={aboutmp4} muted loop autoPlay>
         {" "}
       </video>
 

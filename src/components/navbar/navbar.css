@@ -55,3 +55,45 @@ background-color: #00ADB5 !important;
   height: 400px;
   width: 400px;
 }
+.menuicon{
+color: #00ADB5 !important;
+cursor: pointer;
+/* visibility: hidden; */
+}
+.navbar-1{
+  display: flex;
+  
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+
+ /* Button{
+  visibility: hidden;
+  background-color: transparent;
+  
+ } */
+ /* .menuicon{
+  color: #00ADB5 !important;
+  cursor: pointer;
+  visibility: visible !important;
+
+  }
+  .nav-continer1{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+   
+  }
+  .arriange-btn{
+ 
+
+  } */
+  .whole-continer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
+}

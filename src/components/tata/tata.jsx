@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import tata1 from "../images-videos/tata.webp"
 import tata2 from "../images-videos/tata1.jpg"
 import tata3 from "../images-videos/tata2.webp"
@@ -15,7 +15,7 @@ function Tata(){
     return(
         <Box>
             <Box>
-<Navbar/>
+<Nav1/>
             </Box>
 <Box className="tata-overall">
 <img className="tata-design" src={tata1} alt="" />

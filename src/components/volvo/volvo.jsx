@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import volvo1 from "../images-videos/volvo1.webp"
 import volvo2 from "../images-videos/volvo2.jpg"
 import volvo3 from "../images-videos/volvo3.jpg"
@@ -13,7 +13,7 @@ function Volvo(){
     return(
         <Box>
             <Box>
-<Navbar/>
+<Nav1/>
             </Box>
             <Box className="volvo-overall">
 <img className="volvo-design" src={volvo1} alt="" />

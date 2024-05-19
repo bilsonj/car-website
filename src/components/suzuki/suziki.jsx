@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import Susuki1 from "../images-videos/suzuki1.webp"
 import Susuki2 from "../images-videos/suzuki2.avif"
 import Susuki3 from "../images-videos/suzuki4.jpg"
@@ -14,7 +14,7 @@ function Suzuki(){
     return(
         <Box>
             <Box>
-<Navbar/>
+<Nav1/>
             </Box>
 <Box className="suzuki-overall">
 <img className="suzuki-design" src={Susuki1} alt="" />

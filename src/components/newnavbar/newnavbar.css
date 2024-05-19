@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-color{
+    background-color: #222831 !important;
+
+}
+.nav-menu{
+    color: #00ADB5 !important;
+}
+.nav-heading{
+    color: #00ADB5 !important;
+    font-weight: bolder !important;
+}
+.nav-loginbtn{
+    background-color: #00ADB5 !important;
+    color: #222831 !important;
+}
+.newnav{
+  margin-left: auto !important;
+}
+.new-icon{
+    color: #00ADB5;
+    display: none !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px){
+.nav-menu{
+    visibility: hidden;
+}
+.new-icon{
+    display: block !important;
+}
+}

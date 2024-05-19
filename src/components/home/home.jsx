@@ -8,7 +8,7 @@ import {
   Button,
   TextField
 } from "@mui/material";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import Fooder from "../fooder/fooder";
 import bgimg from "../images-videos/bgimg.mp4";
 import brand from "../images-videos/brand.jpg"
@@ -61,13 +61,17 @@ function Home() {
     window.scrollTo({ top: elmRef.current.offsetTop, behavior: "smooth" });
   };
 const [value ,setvalue]=useState(false)
+
+
   return (
+
+
     <div>
       <Box>
-        <Navbar className="" />
+        <Nav1 className="" />
       </Box>
       <Box className="videopath">
-        <video src={bgimg} autoPlay loop muted />
+        <video className="homevideo" src={bgimg} autoPlay loop muted />
       </Box>
       <Typography className="features" variant="h4">
         Feature Cars

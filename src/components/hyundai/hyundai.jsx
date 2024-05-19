@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import Hyundai1 from "../images-videos/hyundai.jpg"
 import Hyundai2 from "../images-videos/hyundai2.webp"
 import Hyundai3 from "../images-videos/hyundai3.jpg"
@@ -13,7 +13,7 @@ function Hyundaimodel(){
     return(
         <Box>
             <Box>
-<Navbar/>
+<Nav1/>
             </Box>
 <Box className="hyundai-overall">
 <img className="huandai-design" src={Hyundai1} alt="" />

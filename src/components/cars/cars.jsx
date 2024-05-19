@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import {
   Box,
   Card,
@@ -43,7 +43,7 @@ function Cars() {
   return (
     <Box>
       <Box>
-        <Navbar />
+        <Nav1 />
       </Box>
       <img className="carshead1" src={carshead1} alt="" />
       <Typography className="carchoose" variant="h4">

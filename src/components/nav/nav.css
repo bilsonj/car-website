@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222831;
+    height: 80px;
+    align-items: center;
+}
+.list-menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    
+
+}
+li{
+    color: #00ADB5;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.logo1{
+color: #00ADB5;
+}
+.login1{
+    border: 2px solid #00ADB5;
+}
+.menu-color,.menu-close-color{
+    display: none !important;
+    color: #00ADB5 !important;
+}
+
+@media screen and (max-width:780px){
+    .logo1{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .list-menu{
+        display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #222831;
+        
+        left: 0;
+        top: 75px;
+        transition: all 0.5 ease-out;
+        width: 100%;
+    }
+    .home1,.about1,.cars1,.contacts1{
+        color: #00ADB5;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        transition: all 0.5 ease;
+    }
+   .menu-color,.menu-close-color{
+    display: block !important
+    ;
+    position: absolute;
+    font-size: 30px;
+    color: #00ADB5;
+    /* top: 5px; */
+    /* right: 15px; */
+    left: 80px;
+   } 
+   .menu-color{
+    color: #00ADB5 !important;
+   }
+   .menu-close-color{
+    color: #00ADB5 !important;
+    background-color: none
+    ;
+   }
+   .login1{
+    border: none;
+    text-align: center;
+   }
+}

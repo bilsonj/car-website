@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import Minicoper1 from "../images-videos/minicoper1.webp"
 import Minicoper2 from "../images-videos/minicoper2.jpg"
 import Minicoper3 from "../images-videos/minicoper3.webp"
@@ -15,7 +15,7 @@ function Minicoper(){
     return(
         <Box>
             <Box>
-<Navbar/>
+<Nav1/>
             </Box>
 <Box className="minicoper-overall">
 <img className="mini-design" src={Minicoper1} alt="" />

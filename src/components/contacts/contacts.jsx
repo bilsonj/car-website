@@ -1,6 +1,6 @@
 import { Box, Card, Typography, TextField, Button } from "@mui/material";
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import "./contacts.css";
 import contactshead from "../images-videos/contact-head.jpg";
 import HomeIcon from "@mui/icons-material/Home";
@@ -11,7 +11,7 @@ function Contacts() {
   return (
     <Box>
       <Box>
-        <Navbar />
+        <Nav1 />
       </Box>
       <img className="contactshead" src={contactshead} alt="" />
 <Box className="contacts-overall">

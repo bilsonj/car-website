@@ -55,3 +55,38 @@
     margin-top: 50px;
     
 }
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .contacts-overall{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contacts-details{
+        height: 140px;
+        width: 300px;
+        border: 2px solid lightgray;
+        display: flex;
+        gap: 20px;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 30px;
+        
+    }
+    .contacts-fields{
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px){
+.contacts-c0ntiner1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacts-continer2{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.contacts-overall{
+    display: flex;
+    flex-wrap: wrap;   
+}
+}

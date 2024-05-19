@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar/navbar";
+import Nav1 from "../nav/nav";
 import Fooder from "../fooder/fooder";
 import { Box } from "@mui/material";
 import Kiamodel1 from "../images-videos/kiamodel1.webp";
@@ -16,7 +16,7 @@ function Kiamodel () {
     return(
 <div>
     <Box >
-<Navbar/>
+<Nav1/>
     </Box>
     <Box className="kia-page">
 <img className="kia-imgs" src={Kiamodel1} alt="" />
